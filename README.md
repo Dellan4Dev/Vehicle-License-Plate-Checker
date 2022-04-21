@@ -1,30 +1,25 @@
 # Vehicle-Numberplate-Checker
 
-This template should help get you started developing with Vue 3 in Vite.
+a simple web application that accepts a license plate and verifies whether the vehicle is 'allowedAccess' to a business complex or 'isStolen'. If 'isStolen',an email is sent to alert head office/SAPS.
 
-## Recommended IDE Setup
+## Description
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+A vue single page application (SPA) that is mobile-responsive. This web application consist of multiple of vue's single-file-components (SFC) which were composed using the composition api and <script setup>. 
 
-## Customize configuration
+## Components
+  
+  *Header
+  *Form
+  *LicencePlateInput
+  *accessAlert
+  *stolenModal
+  *notFoundAlert
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Dependancies
 
-## Project Setup
+  Email.js - https://www.emailjs.com/
 
-```sh
-npm install
-```
+### Author
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-# Vehicle-License-Plate-Checker
+Dellan Singh 
+Dellan4dev@gmail.com
